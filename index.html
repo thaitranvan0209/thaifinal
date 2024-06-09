@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" src="./pages/boo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/my-slider.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/ads.css" />
+    <link rel="stylesheet" href="./../css/button.css" />
+    <title>BOO - Made in the street</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <a>
+          <img src="./pages/boo.png" alt="" />
+        </a>
+        <nav>
+          <a href="./index.html"></a>
+          <a
+            href="./index.html"
+            class="navlink-active"
+            style="font-family: Arial"
+            >ABOUT BOO</a
+          >
+          <a href="./pages/about-yourself.html" style="font-family: Arial"
+            >ABOUT YOURSELF</a
+          >
+          <a href="./pages/san-pham-nam.html" style="font-family: Arial"
+            >ABOUT MEN</a
+          >
+          <a href="./pages/san-pham-nu.html" style="font-family: Arial"
+            >ABOUT WOMEN</a
+          >
+        </nav>
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+
+        <a href="./pages/signin.html"><i class="fa-solid fa-user"></i></a>
+
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </header>
+    <div class="ads">
+      <div class="container">
+        <img
+          src="https://boovironment.boo.vn/wp-content/uploads/2023/07/DIEM-DEN-XANH-3.png"
+          alt=""
+        />
+        <img
+          src="https://boovironment.boo.vn/wp-content/uploads/2023/07/DIEM-DEN-XANH-1.png"
+          alt=""
+        />
+        <img
+          src="https://boovironment.boo.vn/wp-content/uploads/2023/07/DIEM-DEN-XANH-2.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div id="my-slider" class="my-slider">
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/04/3.png"
+        alt=""
+      />
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/04/Moi-cua-hang-cua-3.png"
+      />
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/04/Moi-cua-hang-cua-2-1.png"
+      />
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/07/2021-upd.png"
+      />
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/07/2023-2048x779.png"
+      />
+      <img
+        src="https://boovironment.boo.vn/wp-content/uploads/2023/07/2022.jpg"
+      />
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".my-slider").slick({
+          dots: true,
+          arrows: false,
+        });
+      });
+    </script>
+    <div id="welcome-message"></div>
+
+    <div class="footer-column-title">
+      <div
+        class="pagebuilder-column footer-newsletter-column"
+        data-content-type="column"
+        data-appearance="full-height"
+        data-background-images="{}"
+        data-element="main"
+        data-pb-style="LEISGSU"
+      >
+        <div
+          data-content-type="text"
+          data-appearance="default"
+          data-element="main"
+          data-pb-style="V5NBM3D"
+        >
+          <p>Công ty Cổ phần Thương mại Boo</p>
+          <p>
+            Trụ sở: 19A Đặng Trần Côn, P.Quốc Tử Giám, Q.Đống Đa, Tp.Hà Nội,
+            Việt Nam.
+          </p>
+          <p>
+            Văn phòng: Tầng 8, tòa nhà Kim Khí Thăng Long, số 1 Lương Yên,
+            P.Bạch Đằng, Q.Hai Bà Trưng, Tp.Hà Nội, Việt Nam.
+          </p>
+        </div>
+        <figure
+          data-content-type="image"
+          data-appearance="full-width"
+          data-element="main"
+          data-pb-style="PK7H6C5"
+        >
+          <img
+            loading="lazy"
+            lazy=""
+            class="pagebuilder-mobile-hidden"
+            src="https://cdn.boo.vn/media/wysiwyg/logo-bct.png"
+            data-original="https://cdn.boo.vn/media/wysiwyg/logo-bct.png"
+            alt=""
+            title=""
+            data-element="desktop_image"
+            data-pb-style="JDWHMOC"
+          />
+        </figure>
+      </div>
+      <div id="information"></div>
+    </div>
+
+    <script src="./scroll.min.js"></script>
+    <script src="./scroll.js"></script>
+    <script type="module" src="./home.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js"></script>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+      import { getAuth } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDR6bk6QBAVLEWtyM3RtQSClJcw1SXScow",
+        authDomain: "thaifinal-f2c2e.firebaseapp.com",
+        projectId: "thaifinal-f2c2e",
+        storageBucket: "thaifinal-f2c2e.appspot.com",
+        messagingSenderId: "452045302889",
+        appId: "1:452045302889:web:c3c61e3dc7bf63d215c6f8",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth();
+
+      const currentUser = JSON.parse(sessionStorage.getItem("currentUser"));
+      if (currentUser) {
+        document.querySelector("div.footer-column-title").innerHTML += `
+          <div>
+             <span>Welcome, ${currentUser.fullName}</span>
+            <img src="${currentUser.imageUrl}" alt="User Image" style="width: 50px; border-radius: 50%;" />
+          
+
+            <a href="#" id="signOut"><button onclick="signOut()">Sign Out</button></a>
+          </div>
+        `;
+
+        document.getElementById("signOut").addEventListener("click", () => {
+          auth.signOut().then(() => {
+            sessionStorage.removeItem("currentUser");
+            window.location.href = "./pages/signin.html";
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

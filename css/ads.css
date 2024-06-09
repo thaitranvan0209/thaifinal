@@ -1,0 +1,11 @@
+.ads .container {
+    display: flex;
+    gap: 32px;
+    margin-top: 65px;
+}
+.ads img {
+    width: calc(33.33% - 32px);
+    margin-top: 70px ;
+    margin-left: 13px;
+    
+}

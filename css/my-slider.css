@@ -1,0 +1,11 @@
+.my-slider img {
+    margin: 20px;
+   margin-right: 0;
+    margin-left: 0px;
+    object-fit: cover;
+    height: 450px;
+    
+}
+.my-slider .slick-prev {
+    left: 16px !important; 
+}

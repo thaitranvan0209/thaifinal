@@ -1,0 +1,51 @@
+.navlink-active {
+  color: white;
+}
+header {
+  background-color: black;
+  padding: 8px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+header img {
+  max-width: 150px;
+  max-width: 80px;
+  border-radius: 10px;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  margin: auto;
+  display: flex;
+  gap: 19px;
+  color: blanchedalmond;
+}
+header i {
+  font-size: 28px;
+  color: blanchedalmond;
+  padding: 11px;
+  border-radius: 40%;
+  transition: all 0.5s;
+}
+header i:hover {
+  background-color: blue;
+  color: yellow;
+}
+header a {
+  text-decoration: none;
+  padding: 8px 12px;
+}
+nav a {
+  color: blanchedalmond;
+}

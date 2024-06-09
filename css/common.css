@@ -1,0 +1,29 @@
+body {
+    margin :0;
+    min-height: 120vh;
+   
+}
+.navlink-active {
+    color: blue;
+    background-color:blue;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+    
+
+
+header nav{
+    margin:auto;
+    display:flex;
+    gap: 16px;
+}
+
+
+
+    
